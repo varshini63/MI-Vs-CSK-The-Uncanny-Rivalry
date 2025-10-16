@@ -1805,7 +1805,7 @@ def unlock_flag():
         with open('flag.txt', 'r') as f:
             flag = f.read().strip()
     except FileNotFoundError:
-        flag = 'flag{M1_CSK_R1v4lry_5_F1n4ls_10_Tr0ph13s_2008_2023_Wh1stl3_P0du}'
+        flag = 'Fl4g-X{M1_CSK_R1v4lry_5_F1n4ls_10_Tr0ph13s_2008_2023_Wh1stl3_P0du}'
     
     # Mark as completed
     user_sessions[session_token]['stage'] = 6
