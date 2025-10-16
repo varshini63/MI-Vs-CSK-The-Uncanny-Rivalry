@@ -1208,7 +1208,6 @@ function verifyLogin(username, password) {{
     var encoded1 = m[0].map(c => String.fromCharCode(c)).join('');
     var encoded2 = m[1].map(c => String.fromCharCode(c)).join('');
     
-    // Apply ROT13 to get actual credentials
     var key1 = def(encoded1); 
     var key2 = def(encoded2); 
     
